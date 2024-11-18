@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Syed Rizwan Ahmed</title>
+
+    <!-- Bootstrap CSS CDN link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS Library CSS link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom CSS for hover effects and more -->
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f4f4f4;
+      }
+      .navbar {
+        background-color: #007bff;
+      }
+      .navbar-brand,
+      .nav-link {
+        color: #fff !important;
+      }
+      .nav-link:hover {
+        color: #ffc107 !important;
+      }
+      .section-heading {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #333;
+      }
+      .footer {
+        background-color: #007bff;
+        color: white;
+        padding: 20px 0;
+      }
+      .home {
+        background-color: #007bff;
+        color: white;
+        padding: 100px 0;
+      }
+      .home h1 {
+        font-size: 3rem;
+        font-weight: 700;
+      }
+      .home p {
+        font-size: 1.25rem;
+      }
+      .home button {
+        background-color: #ffc107;
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 10px 25px;
+        font-size: 1rem;
+      }
+      .home button:hover {
+        background-color: #e0a800;
+      }
+      .section {
+        padding: 80px 0;
+      }
+      .skills ul {
+        list-style: none;
+        padding: 0;
+      }
+      .skills li {
+        background: #007bff;
+        color: white;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+      }
+      .skills li:hover {
+        background: #0056b3;
+        transform: scale(1.05);
+      }
+      .progress {
+        height: 20px;
+        border-radius: 10px;
+      }
+      .progress-bar {
+        background-color: #007bff;
+      }
+      .contact form input,
+      .contact form textarea {
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        width: 100%;
+      }
+      .contact form button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        font-size: 1.1rem;
+        border-radius: 5px;
+      }
+      .contact form button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar starts -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Syed Rizwan Ahmed</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar ends -->
+
+    <!-- Home section starts -->
+    <section class="home text-center py-5" id="home">
+      <h1>Hello! I'm Syed Rizwan Ahmed</h1>
+      <p>Big Data Solutions Engineer | Merging Software Engineering, Testing & Quality to Drive Data-Driven Innovation</p>
+      <button class="btn btn-primary">Hire Me</button>
+    </section>
+    <!-- Home section ends -->
+
+    <!-- About section starts -->
+    <section class="about section" id="about">
+      <div class="container" data-aos="fade-up">
+        <h2 class="section-heading">About Me</h2>
+        <p>I am currently engaged in big data projects, honing my skills in data visualization using Tableau and improving data processing procedures through Python applications.</p>
+      </div>
+    </section>
+    <!-- About section ends -->
+
+    <!-- Experience section starts -->
+    <section class="experience section" id="experience">
+      <div class="container" data-aos="fade-up">
+        <h2 class="section-heading">Professional Experience</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Starbucks, Hyderabad, India</h3>
+            <p><strong>Customer Service Representative</strong> (February 2018 - March 2019)</p>
+            <ul>
+              <li>Provided excellent customer service and resolved customer issues promptly.</li>
+              <li>Maintained a positive demeanor even during busy periods.</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3>KMIT, Hyderabad, India</h3>
+            <p><strong>Student Volunteer</strong> (September 2019 - August 2020)</p>
+            <ul>
+              <li>Planned and executed fun and educational activities for campers.</li>
+              <li>Worked as part of a team to ensure the success of the camp program.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience section ends -->
+
+    <!-- Education section starts -->
+    <section class="education section" id="education">
+      <div class="container" data-aos="fade-up">
+        <h2 class="section-heading">Education</h2>
+        <h3>Conestoga College, Waterloo, Ontario</h3>
+        <p><strong>Post Graduate Diploma in Software Quality and Testing</strong> (September 2023 - April 2024)</p>
+
+        <h3>Keshav Memorial Institute Of Technology, Hyderabad, India</h3>
+        <p><strong>Bachelor in Computer Science and Engineering</strong> (March 2018 - March 2021)</p>
+      </div>
+    </section>
+    <!-- Education section ends -->
+
+    <!-- Skills section starts -->
+    <section class="skills section" id="skills">
+      <div class="container" data-aos="fade-up">
+        <h2 class="section-heading">Skills & Abilities</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <ul>
+              <li>Customer Service</li>
+              <li>Problem-solving</li>
+              <li>Teamwork</li>
+              <li>Communication</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Technical Skills</h4>
+            <ul>
+              <li>Java, Python, C++</li>
+              <li>SQL</li>
+              <li>Software Testing</li>
+            </ul>
+          </div>
+        </div>
+        <h4>Progress Bars for Technical Skills:</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Java</div>
+        </div>
+        <div class="progress mb-3">
+          <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Python</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">SQL</div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills section ends -->
+
+    <!-- Contact section starts -->
+    <section class="contact section" id="contact">
+      <div class="container" data-aos="fade-up">
+        <h2 class="section-heading">Contact Me</h2>
+        <p><strong>Address:</strong> 30 Hickory Street, Waterloo, ON, N2J 4L4</p>
+        <p><strong>Phone:</strong> 548-333-9577</p>
+        <p><strong>Email:</strong> <a href="mailto:rizwanahmedsyedd@gmail.com">rizwanahmedsyedd@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://ca.linkedin.com/in/syed-rizwan-ahmed" target="_blank">linkedin.com/in/syed-rizwan-ahmed</a></p>
+        <h3>Send Me a Message</h3>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="4" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact section ends -->
+
+    <!-- Footer section starts -->
+    <footer class="footer text-center py-4">
+      <p>&copy; 2024 Syed Rizwan Ahmed. All rights reserved.</p>
+    </footer>
+    <!-- Footer section ends -->
+
+    <!-- Bootstrap JS CDN link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- AOS Library JS link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // Initialize AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+  </body>
+</html>
